@@ -15,6 +15,11 @@ kind: API
 metadata:
   name: petstore-harish3
   description: Petstore 3
+  tags:
+    - book
+    - ticket
+    - reservation
+    - pnr
 spec:
   type: openapi
   lifecycle: experimental
