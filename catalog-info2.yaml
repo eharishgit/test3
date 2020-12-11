@@ -20,4 +20,4 @@ spec:
   lifecycle: experimental
   owner: harish.ekkati@aa.com
   definition: 
-    $text: $https://github.com/eharishgit/test3/blob/main/api_spec.yaml
+    $text: https://github.com/eharishgit/test3/blob/main/api_spec.yaml
