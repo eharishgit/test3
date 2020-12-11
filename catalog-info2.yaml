@@ -19,5 +19,9 @@ spec:
   type: openapi
   lifecycle: experimental
   owner: harish.ekkati@aa.com
+  archerID: "12345"
+  criticality: vital
+  sla: "99.99"
+  domain: Booking
   definition: 
     $text: https://github.com/eharishgit/test3/blob/main/api_spec.yaml
