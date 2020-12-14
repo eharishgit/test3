@@ -4,7 +4,7 @@ metadata:
   name: hello-world1
   description: Hello World example for gRPC
 spec:
-  type: grpc
+  type: soap
   lifecycle: deprecated
   owner: team-c
   definition: |
