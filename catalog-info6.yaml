@@ -12,6 +12,7 @@ spec:
   type: openapi
   lifecycle: experimental
   owner: harish.ekkati@aa.com
+  squad: eSOA
   archerID: "12345"
   criticality: vital
   sla: "99.99"
