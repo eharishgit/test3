@@ -16,4 +16,4 @@ spec:
   sla: "99.99"
   domain: Booking
   definition: 
-    $text: https://github.com/eharishgit/test3/blob/main/api_spec.yaml
+    $text: https://github.com/eharishgit/test3/blob/main/harish-event.yaml
