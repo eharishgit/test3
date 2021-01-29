@@ -1,0 +1,36 @@
+type: record
+name: WxProduct
+namespace: com.aa.opshub.avro.weather
+fields:
+  - name: action
+    type:
+    - 'null'
+    - string
+  - name: alert
+    type:
+    - 'null'
+    - string
+  - name: begValidTime
+    type:
+    - 'null'
+    - string
+  - name: discussion
+    type:
+    - 'null'
+    - string
+  - name: endValidTime
+    type:
+    - 'null'
+    - string
+  - name: icaoCode
+    type:
+    - 'null'
+    - string
+  - name: issueTime
+    type:
+    - 'null'
+    - string
+  - name: issuingEntity
+    type:
+    - 'null'
+    - string
