@@ -1,0 +1,238 @@
+{
+	"type": "record",
+	"name": "WxProduct",
+	"namespace": "com.aa.opshub.avro.weather",
+	"fields": [
+		{
+			"name": "action",
+			"type": [
+				"null",
+				"string"
+			]
+		},
+		{
+			"name": "alert",
+			"type": [
+				"null",
+				"string"
+			]
+		},
+		{
+			"name": "begValidTime",
+			"type": [
+				"null",
+				"string"
+			]
+		},
+		{
+			"name": "discussion",
+			"type": [
+				"null",
+				"string"
+			]
+		},
+		{
+			"name": "endValidTime",
+			"type": [
+				"null",
+				"string"
+			]
+		},
+		{
+			"name": "icaoCode",
+			"type": [
+				"null",
+				"string"
+			]
+		},
+		{
+			"name": "issueTime",
+			"type": [
+				"null",
+				"string"
+			]
+		},
+		{
+			"name": "issuingEntity",
+			"type": [
+				"null",
+				"string"
+			]
+		},
+		{
+			"name": "location",
+			"type": [
+				"null",
+				{
+					"type": "record",
+					"name": "Location",
+					"namespace": "com.aa.opshub.avro.weather",
+					"fields": [
+						{
+							"name": "count",
+							"type": [
+								"null",
+								"string"
+							]
+						},
+						{
+							"name": "region",
+							"type": [
+								"null",
+								{
+									"type": "array",
+									"items": [
+										"null",
+										"string"
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "polygon",
+			"type": [
+				"null",
+				{
+					"type": "record",
+					"name": "Polygon",
+					"namespace": "com.aa.opshub.avro.weather",
+					"fields": [
+						{
+							"name": "count",
+							"type": [
+								"null",
+								"string"
+							]
+						},
+						{
+							"name": "geolocation",
+							"type": [
+								"null",
+								{
+									"type": "array",
+									"items": [
+										"null",
+										{
+											"type": "record",
+											"name": "Geolocation",
+											"namespace": "com.aa.opshub.avro.weather",
+											"fields": [
+												{
+													"name": "latitude",
+													"type": [
+														"null",
+														"string"
+													]
+												},
+												{
+													"name": "longitude",
+													"type": [
+														"null",
+														"string"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "productText",
+			"type": [
+				"null",
+				"string"
+			]
+		},
+		{
+			"name": "signature",
+			"type": [
+				"null",
+				"string"
+			]
+		},
+		{
+			"name": "subType",
+			"type": [
+				"null",
+				"string"
+			]
+		},
+		{
+			"name": "trackingId",
+			"type": [
+				"null",
+				"string"
+			]
+		},
+		{
+			"name": "turbLvls",
+			"type": [
+				"null",
+				{
+					"type": "record",
+					"name": "TurbLvls",
+					"namespace": "com.aa.opshub.avro.weather",
+					"fields": [
+						{
+							"name": "count",
+							"type": [
+								"null",
+								"string"
+							]
+						},
+						{
+							"name": "tufbInd",
+							"type": [
+								"null",
+								{
+									"type": "record",
+									"name": "TufbInd",
+									"namespace": "com.aa.opshub.avro.weather",
+									"fields": [
+										{
+											"name": "base",
+											"type": [
+												"null",
+												"string"
+											]
+										},
+										{
+											"name": "top",
+											"type": [
+												"null",
+												"string"
+											]
+										},
+										{
+											"name": "value",
+											"type": [
+												"null",
+												"string"
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "type",
+			"type": [
+				"null",
+				"string"
+			]
+		}
+	]
+}
