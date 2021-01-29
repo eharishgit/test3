@@ -1,0 +1,11 @@
+asyncapi: 2.0.0
+info:
+  title: Example with Avro
+  version: 0.1.0
+channels:
+  example:
+    publish:
+      message:
+        schemaFormat: 'application/vnd.apache.avro;version=1.9.0'
+        payload: # The following is an Avro schema in YAML format (JSON format is also supported)
+          $ref: 'https://github.com/eharishgit/test3/blob/main/tesr-avro.avsc'
