@@ -1,7 +1,6 @@
-lightMeasuredPayload: 
-  properties: 
-    lumens: 
-      description: "Light intensity measured in lumens."
-      minimum: 0
-      type: integer
-    type: object
+properties: 
+  lumens: 
+    description: "Light intensity measured in lumens."
+    minimum: 0
+    type: integer
+  type: object
